@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ssdj.retrofit2.MainActivity">
+
+    <Button
+        android:id="@+id/btn_mobile_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询手机号码归属地(GET)"/>
+
+    <Button
+        android:id="@+id/btn_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="根据城市查询天气预报(GET)"/>
+
+    <Button
+        android:id="@+id/btn_ip_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="根据IP查询天气预报(POST)"/>
+
+    <Button
+        android:id="@+id/btn_github_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Github用户信息"/>
+
+    <Button
+        android:id="@+id/btn_github_user_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Github用户信息(RxJava+Retrofit)"/>
+
+    <Button
+        android:id="@+id/btn_github_jsonarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Github Json数组"/>
+
+    <Button
+        android:id="@+id/btn_zhihu_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取知乎专栏作者信息"/>
+
+</LinearLayout>
